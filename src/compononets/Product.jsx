@@ -131,6 +131,30 @@ function Product() {
                             className="block w-full p-2 border border-gray-300 rounded-lg mb-2"
                             placeholder="Stock"
                         />
+                         <input
+                            type="number"
+                            name="Category"
+                            value={newProduct.Category}
+                            onChange={handleChange}
+                            className="block w-full p-2 border border-gray-300 rounded-lg mb-2"
+                            placeholder="Category"
+                        />
+                         <input
+                            type="text"
+                            name="brand"
+                            value={newProduct.brand}
+                            onChange={handleChange}
+                            className="block w-full p-2 border border-gray-300 rounded-lg mb-2"
+                            placeholder="brand"
+                        />
+                         <input
+                            type="text"
+                            name="name"
+                            value={newProduct.name}
+                            onChange={handleChange}
+                            className="block w-full p-2 border border-gray-300 rounded-lg mb-2"
+                            placeholder="name"
+                        />
                         <button
                             onClick={createProduct}
                             className="w-full py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600"

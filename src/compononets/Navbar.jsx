@@ -44,7 +44,7 @@ export default function Navbar() {
         <ul className='flex justify-center items-center h-[10vh] gap-5'>
             <a href="/"><li>Home</li></a>
             <a href="/product"><li>Product</li></a>
-            <a href="/login1"><li>Login1</li></a>
+            <a href="/catagory"><li>Catagory</li></a>
             <a href="/register"><li>Register</li></a>
             <a href="/create"><li>Create A Post</li></a>
         </ul>
